@@ -3,6 +3,7 @@
   <arg name="robot_name" default="robot" />
   <arg name="gripper_type" default="gripper" />
   <arg name="finger_type" default="finger" />
+  <arg name="robot_pos_file" default="" />
 
   <arg name="debug" default="false" doc="Debug flag that will get passed on to ur_common.launch"/>
   <arg name="robot_ip" doc="IP address by which the robot can be reached."/>
